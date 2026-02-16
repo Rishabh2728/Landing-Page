@@ -3,6 +3,9 @@ import './App.css'
 import Header from './component/Header'
 import Hero from './component/Hero'
 import Footer from './component/Footer'
+import Contact from './component/contact'
+import Counter from './component/counter'
+import List from './component/list'
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
       </main>
 
       <Footer />
+      <Contact />
+      <Counter />
+      <List />
     </div>
   )
 }
